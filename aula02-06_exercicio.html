@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lógica de progração JavaScript</title>
+</head>
+
+<body>
+    <h1> Lógica de programação com Javascript </h1>
+    <script>
+        //Pedir para o usuario digitar um numero 
+        var n1 = prompt ("Digite um número");
+        n1 = parseFloat (n1);
+        //Pedir para o usuario digitar outro numero 
+        var n2 = prompt ("Digite outro número");
+        n2 = parseFloat (n2);
+        //Mostrar um bolean indicando se a media for maior que 5 
+        var media = (n1 + n2) / 2; 
+        
+
+        if (media <= 5 || n1 === 0 || n2 === 0) {
+            alert ("Que pena, não foi dessa vez. Tente novamente!");
+        }
+        
+        else {
+            alert ("Parabéns, você foi aprovado!");
+        }
+
+    </script>
+</body>
+</html>
